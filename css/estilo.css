@@ -34,7 +34,7 @@ body {
   top: 0px;
 }
 
-.logo {
+.header__logo{
   grid-area: logo;
   display: flex;
   flex-direction: row;
@@ -42,7 +42,7 @@ body {
   width: 50%;
 }
 
-.logo img {
+.header__logo img {
   width: 20%;
 }
 
@@ -56,6 +56,7 @@ body {
   justify-content: flex-end;
 }
 
+
 .menu li {
   list-style-type: none;
   font-size: 1.5rem;
@@ -63,10 +64,12 @@ body {
   width: auto;
   display: flex;
   margin-right: 3%;
+  transition: all 0.3s ease;
 }
 
 .menu li a:hover {
   color: #11a0d9;
+  transform: scale(1.3,1.3);
 }
 
 .menu li a {
@@ -120,17 +123,17 @@ body {
   flex-direction: column;
 }
 
-.redesSociales {
+.footer__redesSociales {
   width: 50%;
   display: flex;
 }
 
-.redesSociales img {
+.footer__redesSociales img {
   margin-right: 2%;
   width: 5%;
 }
 
-.creacion {
+.footer__creacion {
   width: 100%;
   display: flex;
   align-items: center;
@@ -221,11 +224,8 @@ hr {
   .menu li {
     font-size: 1rem;
   }
-  .logo img {
-    width: 100%;
-  }
 
-  .redesSociales img {
+  .footer__redesSociales img {
     width: 30%;
   }
 
