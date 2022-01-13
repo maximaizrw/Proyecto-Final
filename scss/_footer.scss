@@ -11,8 +11,7 @@
   }
   .footer__creacion {
     width: 100%;
-    display: flex;
+    @include flex-end;
     align-items: center;
-    justify-content: flex-end;
   }
 }

@@ -1,3 +1,9 @@
+.imagen, .sobreMi img, .galeria img {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,13 +37,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: flex-row;
           flex-direction: flex-row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .row .menu-text a {
@@ -77,18 +83,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
-
-.sobreMi img {
-  border-radius: 10px;
-  height: 300px;
-  width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sobreMi p {
@@ -111,12 +111,6 @@ body {
 
 .galeria {
   text-align: center;
-}
-
-.galeria img {
-  height: 300px;
-  width: 400px;
-  border-radius: 10px;
 }
 
 .colorNegro {

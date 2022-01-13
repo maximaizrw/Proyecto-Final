@@ -1,5 +1,22 @@
-$bg_celeste: #11a0d9;
-$bg_negro: #262324;
+$colores:(
+    negro:#262324,
+    celeste: #11a0d9,
+);
+
+$negro: map-get($colores , negro);
+$celeste: map-get($colores , celeste);
+
+.imagen{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+@mixin flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
 @import "body";
 @import "header";
 @import "footer";

@@ -1,13 +1,13 @@
 .listaEntrada {
   button {
-    border: 2px solid $bg_celeste;
+    border: 2px solid $celeste;
     border-radius: 0px;
     font-family: "Lucida Console", Monaco, monospace;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     &:hover {
-      box-shadow: inset 0 100px 0 0 $bg_celeste;
+      box-shadow: inset 0 100px 0 0 $celeste;
     }
   }
 }
