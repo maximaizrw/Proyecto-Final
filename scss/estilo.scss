@@ -17,10 +17,4 @@ $celeste: map-get($colores , celeste);
     justify-content: flex-end;
 }
 
-@import "body";
-@import "header";
-@import "footer";
-@import "sobreMi";
-@import "show";
-@import "galeria";
-@import "contacto";
+@import "imports";

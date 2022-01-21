@@ -4,18 +4,6 @@
   border-radius: 10px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #f2f2f2;
-}
-
 .row header {
   height: 100px;
 }
@@ -64,6 +52,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: auto;
 }
 
 .footer .footer__redesSociales {
@@ -75,7 +64,7 @@ body {
 
 .footer .footer__redesSociales img {
   margin-right: 2%;
-  width: 5%;
+  width: 2rem;
 }
 
 .footer .footer__creacion {
@@ -89,6 +78,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 20px;
 }
 
 .sobreMi p {
@@ -119,5 +109,14 @@ body {
 
 .colorCeleste {
   color: #11a0d9;
+}
+
+.cont {
+  background-color: #262324;
+}
+
+.cont h1 {
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=estilo.css.map */
